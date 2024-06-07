@@ -268,7 +268,7 @@ function drawDead(){
         ctx.fillText("Blue Win!", canvas.width/3.25, canvas.height/1.75)
     }
     ctx.font = "20px Arial";
-    ctx.fillText("Press 'Return' to restart", canvas.width/4, canvas.height/1.5)
+    ctx.fillText("Press 'Enter' to restart", canvas.width/4, canvas.height/1.5)
 }
 //Zeichnen Grid
 function drawGridx(x){
