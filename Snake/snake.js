@@ -228,7 +228,7 @@ function drawDead(){
     ctx.font = "50px Arial";
     ctx.fillText("Game Over!", canvas.width/5.5, canvas.height/2)
     ctx.font = "20px Arial";
-    ctx.fillText("Press 'Return' to restart", canvas.width/4, canvas.height/1.75)
+    ctx.fillText("Press 'Enter' to restart", canvas.width/4, canvas.height/1.75)
     if(modus != moduslist[2])
     {
         ctx.font = "20px Arial";
