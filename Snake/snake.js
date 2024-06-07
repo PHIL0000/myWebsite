@@ -182,7 +182,7 @@ function draw() {
     ctx2.fillText("Score:"+score,2, 20);
     ctx2.fillText("Revives:"+revives,2,50);
     ctx2.fillText("Speed:"+speed,2, 80);
-    ctx2.fillText("Modus:"+modus,2, 110);
+    ctx2.fillText("Mode:"+modus,2, 110);
     for(let i = 0; i < snake.length; i++){
     drawSnake(snake[i].x,snake[i].y);
     }
